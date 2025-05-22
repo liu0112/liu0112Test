@@ -20,14 +20,11 @@
 
     // 配置项和数据
     var option = {
-      title: {
-        text: '2023年和2024年1至12月事故数量对比'
-      },
       tooltip: {
         trigger: 'axis'
       },
       legend: {
-        data: ['2023年', '2024年']
+        data: ['2022年', '2023年']
       },
       xAxis: {
         type: 'category',
@@ -39,12 +36,12 @@
       },
       series: [
         {
-          name: '2023年',
+          name: '2022年',
           type: 'line',
           data: accidents2023
         },
         {
-          name: '2024年',
+          name: '2023年',
           type: 'line',
           data: accidents2024
         }
